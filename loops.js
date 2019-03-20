@@ -9,6 +9,10 @@ function forLoop(myArray) {
 }
 
 function whileLoop(n) {
-    break
-  }
+    while (n > 0) {
+      console.log(--n)
+    }
+    else {
+      console.log(`Done.`)
+    }
 }
