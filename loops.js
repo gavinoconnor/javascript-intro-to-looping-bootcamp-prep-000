@@ -23,7 +23,7 @@ function doWhileLoop(num) {
     return num;
     }
 
-    do { console.log('I run once regardless');
+    do {console.log('I run once regardless');
     }
     while (incrementVariable() < num);
     }
